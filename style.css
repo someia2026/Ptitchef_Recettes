@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:;
+    line-height:;
+    color:;
+    background-color: ;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .alignCenter {
+    align-items: center;
+  }
+  
+  .w100 {
+    width: 100%;
+  }
+
+ .gap {
+    gap: 15px;
+ }
+  
+  .marginAuto {
+    margin: auto;
+  }
+  
+  .justifyCenter {
+   justify-content: center;
+  }
