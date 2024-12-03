@@ -12,9 +12,10 @@
 
 <body>
     <header>
-        <div> <!-- ENGLOBANTE -->
+
+        <div class="container"> <!-- ENGLOBANTE -->
             <img src="Assets.html/Group 3.png" alt="image tichef">
-            <div><label for="site-search">Je cherche</label>
+            <div><label for="">Je cherche</label>
                 <input type="search" id="site-search" name="q" />
                 <button>Chercher</button>
             </div> <!-- créer un bouton barre de recherche -->
@@ -32,49 +33,70 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>RECETTES TOUTES SAISONS</h2>
-            <div>
-                <h3>Spaghetti Bolognaise</h3>
-                <ul>
-                <li><span>Difficulté:</span>Moyen</li> <!-- CREER UNE CLASSE .SPAN -->
-                <li><span>Portions:</span>4</li>
-                <li><span>Temps de préparation:</span>40 min</li>
-                <li><span>Temps de cuisson:</span>1h 20min</li>
-            </div>
-            <div>
-                <div>
-                    <h4><span></span>Ingrédients:</h4>
+    <main id="container">
+        <section id="containerCard">
+            <div id="card">
+            <h2 class="fontColor">RECETTES TOUTES SAISONS</h2>
+            <div  class="flex bigHeader alignItem spaceBetween">
+                <div class="boxcard">
+                    <h3 class="fontColor">Spaghetti Bolognaise</h3>
                     <ul>
-                    <li>500 g de spaghetti</li>
-                    <li>500 g de viande hachée</li>
-                    <li>2 gousse d'ail</li>
-                    <li>1 g carotte</li>
-                    <li>1 oignon</li>
-                    <li>1 branche de céleris</li>
-                    <li>850 g de tomates</li>
-                    <li>1 cuillère à soupe de concentré</li>
-                    <li>1 cube de bouillon de volaille</li>
-                    <li>1 cuillère à soupe d'huile d'olive</li>
-                    <li>1 pincée de sel et de poivre</li>
-                    <li>1 cuillère à café de sucre</li>
+                        <li><span>Difficulté:</span>Moyen</li> <!-- CREER UNE CLASSE .SPAN -->
+                        <li><span>Portions:</span>4</li>
+                        <li><span>Temps de préparation:</span>40 min</li>
+                        <li><span>Temps de cuisson:</span>1h 20min</li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <h4><span></span>Ingrédients:</h4>
+                        <ul>
+                            <li>500 g de spaghetti</li>
+                            <li>500 g de viande hachée</li>
+                            <li>2 gousse d'ail</li>
+                            <li>1 g carotte</li>
+                            <li>1 oignon</li>
+                            <li>1 branche de céleris</li>
+                            <li>850 g de tomates</li>
+                            <li>1 cuillère à soupe de concentré</li>
+                            <li>1 cube de bouillon de volaille</li>
+                            <li>1 cuillère à soupe d'huile d'olive</li>
+                            <li>1 pincée de sel et de poivre</li>
+                            <li>1 cuillère à café de sucre</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4><span></span>Etapes:</h4>
+                </div>
+                <div>
+                    <ol>
+                        <li>Hachez l'ail, l'oignon, puis coupez la carotte et le céleri en petits dés (enlevez les
+                            principales
+                            nervures du céleri).</li>
+                        <li>Faites chauffer l'huile dans une casserole assez grande. Faites revenir l'ail, l'oignon, la
+                            carotte
+                            et le céleri à feu doux pendant 5 min en remuant.</li>
+                        <li>Augmenter la flamme, puis ajoutez le boeuf. Faites brunir et remuez de façon à ce que la
+                            viande
+                            ne
+                            fasse pas de gros paquets.</li>
+                        <li>Ajoutez le bouillon, les tomates préalablement coupées assez grossièrement, le sucre et le
+                            persil
+                            haché. Portez à ébullition.</li>
+                        <li>Baisser ensuite le feu et laissez mijoter à couvert 1h à 1h30, de façon à ce que le vin
+                            s'évapore.
+                        </li>
+                        <li>Faites cuire les spaghetti, puis mettez-les dans un plat.</li>
+                        <li>Ajoutez la sauce bolognaise.</li>
+                    </ol>
+                </div>
+                <div class="imgCard">
+                
+                    <img src="Assets.html/spaghetti.png" alt="image">
                 </div>
             </div>
-            <div>
-                <h4><span></span>Etapes:</h4>
-            </div>
-            <ol>
-            <li>Hachez l'ail, l'oignon, puis coupez la carotte et le céleri en petits dés (enlevez les principales nervures du céleri).</li>
-            <li>Faites chauffer l'huile dans une casserole assez grande. Faites revenir l'ail, l'oignon, la carotte et le céleri à feu doux pendant 5 min en remuant.</li>
-            <li>Augmenter la flamme, puis ajoutez le boeuf. Faites brunir et remuez de façon à ce que la viande ne fasse pas de gros paquets.</li>
-            <li>Ajoutez le bouillon, les tomates préalablement coupées assez grossièrement, le sucre et le persil haché. Portez à ébullition.</li>
-            <li>Baisser ensuite le feu et laissez mijoter à couvert 1h à 1h30, de façon à ce que le vin s'évapore.</li>
-            <li>Faites cuire les spaghetti, puis mettez-les dans un plat.</li>
-            <li>Ajoutez la sauce bolognaise.</li>
-            <div>
-                <img src="Assets.html/spaghetti.png" alt="image">
-            </div>  
+        </div>
         </section>
     </main>
 

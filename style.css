@@ -1,38 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  body {
-    font-family:;
-    line-height:;
-    color:;
-    background-color: ;
-    padding: 0;
-    margin: 0;
+.displayBlock{
+    display: inline-block;
+}
+.bigHeader {
+    background-color: #fff;
+    padding: 10px 40px;
+}
+  .boxcard {
+    width: 1000px;
+    margin:auto;
+    align-items: center;
   }
-  
-  .flex {
+.flex {
     display: flex;
+    flex-wrap: wrap;
+    
+  }
+.spaceBetween {
+    justify-content: space-between;
   }
   
-  .alignCenter {
+.alignCenter {
     align-items: center;
   }
   
-  .w100 {
+.w100 {
     width: 100%;
   }
 
- .gap {
+.gap {
     gap: 15px;
  }
-  
-  .marginAuto {
-    margin: auto;
+    
+  .fontColor {
+    color: #FF6F61;
+    font-family: "Josefin Sans", sans-serif;
   }
-  
-  .justifyCenter {
-   justify-content: center;
-  }
+ .imgCard {
+    height: 100%;
+    width: 100%;
+ }
